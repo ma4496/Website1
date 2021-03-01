@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(244, 143, 236);
+}
+
+div {
+	text-align: center;
+}
+
+
+#leftEye{
+	width: 300px;
+	height: 150px;
+	padding: 5vw;
+	border: 10px solid black;
+	margin: 50px;
+	background-color: rgb(193, 135, 250);
+}
+
+#leftEye:hover {
+	background-image: url(tv.jpg);
+}
+
+#rightEye{
+	width: 300px;
+	height: 150px;
+	padding: 5vw;
+	border: solid 10px black;
+	margin: 50px;
+	background-color: rgb(193, 135, 250);
+}
+
+#rightEye:hover {
+	background-image: url(home.jpg);
+}
+
+#theNose {
+width: 100px;
+height: 200px;
+padding: 5vw;
+border: 10px solid black;
+margin: 50px;
+background-color: rgb(193, 135, 250);
+}
+
+#theNose:hover {
+background-image: url(hobby.jpg);
+}
+
+#theMouth {
+width: 400px;
+height: 200px;
+padding: 5vw;
+border: 10px solid black;
+margin: 10px;
+background-color: rgb(193, 135, 250);
+}
+
+
+#theMouth:hover {
+background-image: url(favoriteFood.jpg);
+}
+
+#leftEar {
+width: 100px;
+height: 100px;
+padding: 5vw;
+border: solid 10px black;
+margin: 200px;
+background-color: rgb(193, 135, 250);
+}
+
+#leftEar:hover {
+	background-image: url(favoriteMusic.jpg);
+}
+
+#rightEar {
+width: 100px;
+height: 100px;
+padding: 5vw;
+border: solid 10px black;
+margin: 200px;
+background-color: rgb(193, 135, 250);
+}
+
+#rightEar:hover {
+	background-image: url(funFact.jpg);
+}
