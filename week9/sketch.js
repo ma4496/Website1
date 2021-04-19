@@ -5,7 +5,7 @@ theBody = document.querySelector("body");
 theQuote = document.querySelector("h1");
 
 theBody.style.backgroundColor = "rgb(194, 215, 249)"
-theQuote.style.fontFamily = "Zilla Slab Highlight, cursive;"
+theQuote.style.fontFamily = 'Inconsolata', monospace; 
 
 document.querySelector('img').addEventListener('click', potato);
 
