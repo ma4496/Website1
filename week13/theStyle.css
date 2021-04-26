@@ -1,0 +1,45 @@
+body{
+	font-family: 'VT323', monospace;
+
+}
+
+h1{
+	display: flex;
+	justify-content: center;
+}
+
+p{
+	display: flex;
+	justify-content: center;
+}
+
+
+.volleyball{
+	display: flex;
+	justify-content: center;
+}
+
+.images1{
+	display: flex;
+	justify-content: center;
+}
+
+.images2{
+	display: flex;
+	justify-content: center;
+}
+
+.images3{
+	display: flex;
+	justify-content: center;
+}
+
+.images4{
+	display: flex;
+	justify-content: center;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
