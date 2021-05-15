@@ -16,7 +16,6 @@ cursor: url(volleyballAnimation.png), default;
 	align-items: flex-start;
 	background-image: url(sand.jpg);
 	background-size: 100vw;
-	background-size: 
 }
 
 
@@ -32,8 +31,6 @@ cursor: url(volleyballAnimation.png), default;
 .pageBody {
 	width: 100vw;
 	height: 100vh;
-	display: flex;
-	align-items: flex-start;
 	background-color: #F3EEDA;
 }
 
@@ -41,16 +38,39 @@ cursor: url(volleyballAnimation.png), default;
 	font-family: 'Oi', cursive;
 	writing-mode: vertical-lr;
 	text-orientation: upright;
-	font-size: 12vh;
+	font-size: 10.5vh;
 	color: rgb(88,88,88);
+	padding: 15px;
+	border: 10px solid #7FF5EF;
+	border-radius: 3vw;
+	margin: 2vh;
+	display: flex;
+	align-items: flex-start;
+}
+
+.why {
+	font-family: 'Maven Pro', sans-serif;
+	color: rgb(88,88,88);
+	font-size: 2vw;
+	position: absolute;
+	width: 40vw;
+	right: 24vw;
+	top: 35vh;
+	padding: 15px;
+	border: 10px solid #7FF5EF;
+	border-radius: 3vw;
 }
 
 .donateTitle {
 	font-family: 'Oi', cursive;
 	writing-mode: vertical-lr;
 	text-orientation: upright;
-	font-size: 10vh;
+	font-size: 8.5vh;
 	color: rgb(88,88,88);
+	padding: 15px;
+	border: 10px solid #7FF5EF;
+	border-radius: 3vw;
+	margin: 2vh;
 }
 
 .theButton {
@@ -66,9 +86,19 @@ cursor: url(volleyballAnimation.png), default;
 
 .donateButton {
 	position: absolute;
-	right: 42vw;
+	right: 70vw;
 	top: 45vh;
   	border-radius: 5vw;
+}
+
+.donateButton:hover {
+  box-shadow: 0 0 3vw 0 #7FF5EF inset, 0 0 3vw 1vw #7FF5EF;
+}
+
+.animation {
+	position: absolute;
+	right: 10vw;
+	top: 30vh;
 }
 
 
