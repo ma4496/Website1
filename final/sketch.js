@@ -1,49 +1,53 @@
 let yLoc;
-let ySpeed;
+let xSpeed;
 
 function setup() {
-	createCanvas(500, 600);
+	createCanvas(windowWidth, 600);
 	this.yLoc = 330;
-	this.ySpeed = 1;
+	this.xSpeed = 1;
+	this.xLoc = 270;
 }
 
 function draw() {
 	background(243, 238, 218);
+	push();
+	scale(0.5);
 	volleyball();
+	pop();
 }
 
 function volleyball(){
 	strokeWeight(2.5);
 	fill(255);
-	ellipse (300, this.yLoc - 30, 200, 200);
+	ellipse (this.xLoc + 30, this.yLoc - 30, 200, 200);
 	
 	// outlines:
-	bezier(270, this.yLoc, 290, this.yLoc + 25, 370, this.yLoc + 35, 386, this.yLoc + 20); // middle, bottom
-	bezier(270, this.yLoc, 255 , this.yLoc - 30, 255, this.yLoc - 70, 290, this.yLoc - 100); // middle, side
-	bezier(290, this.yLoc - 100, 330, this.yLoc - 115, 370, this.yLoc - 95, 386, this.yLoc - 80); // middle, top
-	bezier(290, this.yLoc - 100, 275, this.yLoc - 115, 260, this.yLoc - 115, 250, this.yLoc - 116); // top left connecter
-	bezier(270, this.yLoc, 265, this.yLoc + 10, 260, this.yLoc + 30, 229, this.yLoc + 40); // bottom left connecter
+	bezier(this.xLoc, this.yLoc, this.xLoc + 20, this.yLoc + 25, this.xLoc + 100, this.yLoc + 35, this.xLoc + 116, this.yLoc + 20); // middle, bottom
+	bezier(this.xLoc, this.yLoc, this.xLoc - 15, this.yLoc - 30, this.xLoc - 15, this.yLoc - 70, this.xLoc + 20, this.yLoc - 100); // middle, side
+	bezier(this.xLoc + 20, this.yLoc - 100, this.xLoc + 60, this.yLoc - 115, this.xLoc + 100, this.yLoc - 95, this.xLoc + 116, this.yLoc - 80); // middle, top
+	bezier(this.xLoc + 20, this.yLoc - 100, this.xLoc + 5, this.yLoc - 115, this.xLoc - 10, this.yLoc - 115, this.xLoc - 20, this.yLoc - 116); // top left connecter
+	bezier(this.xLoc, this.yLoc, this.xLoc - 5, this.yLoc + 10, this.xLoc - 10, this.yLoc + 30, this.xLoc - 41, this.yLoc + 40); // bottom left connecter
 	
 	// left:
-	bezier(270, this.yLoc - 113, 230, this.yLoc - 80, 210, this.yLoc - 20, 245, this.yLoc + 31);
+	bezier(this.xLoc, this.yLoc - 113, this.xLoc - 40, this.yLoc - 80, this.xLoc - 60, this.yLoc - 20, this.xLoc - 25, this.yLoc + 31);
 	
 	// lower:
-	bezier(300, this.yLoc + 18, 303, this.yLoc + 45, 280, this.yLoc + 60, 270, this.yLoc + 65); // left
-	bezier(340, this.yLoc + 28, 338, this.yLoc + 45, 328, this.yLoc + 60, 310, this.yLoc + 69); //right
+	bezier(this.xLoc + 30, this.yLoc + 18, this.xLoc + 33, this.yLoc + 45, this.xLoc + 10, this.yLoc + 60, this.xLoc, this.yLoc + 65); // left
+	bezier(this.xLoc + 70, this.yLoc + 28, this.xLoc + 68, this.yLoc + 45, this.xLoc + 58, this.yLoc + 60, this.xLoc + 40, this.yLoc + 69); //right
 	
   // middle:
-	bezier(264, this.yLoc - 60, 296, this.yLoc - 84, 364, this.yLoc - 70, 398, this.yLoc - 40);
-	bezier(262, this.yLoc - 40, 296, this.yLoc - 16, 364, this.yLoc + 4, 399, this.yLoc - 20);
+	bezier(this.xLoc - 6, this.yLoc - 60, this.xLoc + 26, this.yLoc - 84, this.xLoc + 94, this.yLoc - 70, this.xLoc + 128, this.yLoc - 40);
+	bezier(this.xLoc - 8, this.yLoc - 40, this.xLoc + 26, this.yLoc - 16, this.xLoc + 94, this.yLoc + 4, this.xLoc + 129, this.yLoc - 20);
 	
 	// top:
-	bezier(310, this.yLoc - 105, 308, this.yLoc - 110, 305, this.yLoc - 120, 285, this.yLoc - 128);
-	bezier(355, this.yLoc - 99, 345, this.yLoc - 115, 340, this.yLoc - 122, 330, this.yLoc - 125);
+	bezier(this.xLoc + 40, this.yLoc - 105, this.xLoc + 38, this.yLoc - 110, this.xLoc + 35, this.yLoc - 120, this.xLoc + 15, this.yLoc - 128);
+	bezier(this.xLoc + 85, this.yLoc - 99, this.xLoc + 75, this.yLoc - 115, this.xLoc + 70, this.yLoc - 122, this.xLoc + 60, this.yLoc - 125);
 	
 
-	this.yLoc = this.yLoc + this.ySpeed;
+	this.xLoc = this.xLoc + this.xSpeed;
 	
-  if(this.yLoc>= 530 || this.yLoc<= 130){
-    this.ySpeed = this.ySpeed * -1;
+  if(this.xLoc>= windowWidth || this.xLoc<= 0){
+    this.xSpeed = this.xSpeed * -1;
   }
 	
 }

@@ -1,6 +1,6 @@
 
 body {
-cursor: url(volleyballAnimation.png), default;
+	background-color: #F3EEDA
 }
 
 .navButtons {
@@ -28,17 +28,12 @@ cursor: url(volleyballAnimation.png), default;
 	font-size: 7vw;
 }
 
-.pageBody {
-	width: 100vw;
-	height: 100vh;
-	background-color: #F3EEDA;
-}
 
 .aboutTitle {
 	font-family: 'Oi', cursive;
 	writing-mode: vertical-lr;
 	text-orientation: upright;
-	font-size: 10.5vh;
+	font-size: 6vh;
 	color: rgb(88,88,88);
 	padding: 15px;
 	border: 10px solid #7FF5EF;
@@ -51,11 +46,11 @@ cursor: url(volleyballAnimation.png), default;
 .why {
 	font-family: 'Maven Pro', sans-serif;
 	color: rgb(88,88,88);
-	font-size: 2vw;
+	font-size: 1.2vw;
 	position: absolute;
-	width: 40vw;
-	right: 24vw;
-	top: 35vh;
+	width: 60vw;
+	right: 18vw;
+	top: 30vh;
 	padding: 15px;
 	border: 10px solid #7FF5EF;
 	border-radius: 3vw;
@@ -65,7 +60,7 @@ cursor: url(volleyballAnimation.png), default;
 	font-family: 'Oi', cursive;
 	writing-mode: vertical-lr;
 	text-orientation: upright;
-	font-size: 8.5vh;
+	font-size: 5.5vh;
 	color: rgb(88,88,88);
 	padding: 15px;
 	border: 10px solid #7FF5EF;
@@ -86,8 +81,8 @@ cursor: url(volleyballAnimation.png), default;
 
 .donateButton {
 	position: absolute;
-	right: 70vw;
-	top: 45vh;
+	right: 43vw;
+	top: 35vh;
   	border-radius: 5vw;
 }
 
@@ -95,11 +90,6 @@ cursor: url(volleyballAnimation.png), default;
   box-shadow: 0 0 3vw 0 #7FF5EF inset, 0 0 3vw 1vw #7FF5EF;
 }
 
-.animation {
-	position: absolute;
-	right: 10vw;
-	top: 30vh;
-}
 
 
 
