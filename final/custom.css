@@ -1,0 +1,78 @@
+
+body {
+cursor: url(volleyballAnimation.png), default;
+}
+
+.navButtons {
+	border: none;
+	background-color: rgb(250, 250, 250);
+	color: rgb(88,88,88);
+}
+
+.homePageBody {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	background-image: url(sand.jpg);
+	background-size: 100vw;
+	background-size: 
+}
+
+
+.title {
+	display: flex;
+	justify-content: center;
+	margin: 2vw;
+	font-family: 'Oi', cursive;
+	color: rgb(88,88,88);
+	font-size: 7vw;
+}
+
+.pageBody {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	background-color: #F3EEDA;
+}
+
+.aboutTitle {
+	font-family: 'Oi', cursive;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	font-size: 12vh;
+	color: rgb(88,88,88);
+}
+
+.donateTitle {
+	font-family: 'Oi', cursive;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	font-size: 10vh;
+	color: rgb(88,88,88);
+}
+
+.theButton {
+	width: 15vw;
+	height: 15vh;
+	border-radius: 3vw;
+	background-color: #7FF5EF;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2vw;
+	padding: 1vw;
+	color: rgb(88,88,88);
+}
+
+.donateButton {
+	position: absolute;
+	right: 42vw;
+	top: 45vh;
+  	border-radius: 5vw;
+}
+
+
+
+
+
+
