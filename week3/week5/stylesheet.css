@@ -1,153 +1,49 @@
 body {
-    margin: 0;
-    margin-top: 50px;
-    background-color: #b54e6e;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    background-color: white;
+    margin: 25px;
 }
 
-
-
-header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    justify-content: center;
-    background-color: #b54e6e;
-}
-
-header h1{
-	font-size: 40px;
-    font-family: arial;
-}
-
-
-
-
-section {
+h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-
-}
-
-#artwork {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 0.5vw;
-    padding-top: 50px;
-
-}
-
-#artwork1 {
-    background-image: url(artwork1.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork2 {
-    background-image: url(artwork2.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork3 {
-    background-image: url(artwork3.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork4 {
-    background-image: url(artwork4.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork5 {
-    background-image: url(artwork5.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork6 {
-    background-image: url(artwork6.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork7 {
-    background-image: url(artwork7.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork8 {
-    background-image: url(artwork8.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
-}
-
-#artwork9 {
-    background-image: url(artwork9.jpg);
-    width: 35vw;
-    height: 52vh;
-    margin: 0.5vw;
+    font-size: 5vw;
 }
 
 p {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
-    font-family: arial;
-    text-align: justify-all;
-}
-
-.photo{
-	width: 328px;
-	height:450px;
-}
-
-.text{
-	text-align: left;
-	font-size: 18px;
-	margin-left: 50px;
-    font-family: arial;
-}
-
-
-
-
-
-footer{
-	display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: arial;
-
+    font-size: 3vw; 
 }
 
-.btn{
-	border: none;
-	font-size: 16px;
-	cursor: pointer;
-	background-color: none;
-    margin: 16px;
-    border-radius: 8px;
+.photoWrapper {
+    display: flex;
+    justify-content: center;
 }
 
-.btn:hover{
-	background-color: black;
-    color: #c5c5Cb;
+.logoFinal {
+width: 17vw;
+height: auto;
+margin-left: 70px; 
+margin-right: 60px;
 }
+
+.logoIteration1 {
+width: 17vw;
+height: auto;
+margin-right: 60px;
+}
+
+.logoIteration2{
+width: 17vw;
+height: auto;
+margin-right: 60px;
+}
+
+.logoIteration3 {
+width: 17vw;
+height: auto;
+margin-right: 60px;
+}
+
